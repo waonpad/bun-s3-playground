@@ -1,0 +1,21 @@
+{
+  "name": "bun-temp",
+  "scripts": {
+    "prepare": "lefthook install",
+    "fmt": "biome format --write .",
+    "lnt": "biome lint --write .",
+    "che": "biome check --write .",
+    "test": "vitest run",
+    "test:w": "vitest watch --silent",
+    "test:ci": "vitest run --silent"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bun": "latest",
+    "lefthook": "^1.8.2",
+    "vitest": "^2.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
