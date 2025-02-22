@@ -1,5 +1,5 @@
 {
-  "name": "bun-temp",
+  "name": "bun-s3-playground",
   "scripts": {
     "prepare": "lefthook install",
     "fmt": "biome format --write .",
@@ -12,10 +12,8 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/bun": "latest",
-    "lefthook": "^1.8.2",
-    "vitest": "^2.1.4"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+    "lefthook": "^1.10.11",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.6"
   }
 }
