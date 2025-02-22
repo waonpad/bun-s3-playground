@@ -2,6 +2,7 @@
   "name": "bun-s3-playground",
   "scripts": {
     "prepare": "lefthook install",
+    "setup": "bun install && cp -n .env.example .env; exit 0",
     "fmt": "biome format --write .",
     "lnt": "biome lint --write .",
     "che": "biome check --write .",
